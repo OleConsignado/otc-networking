@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
-    <DocumentationFile>bin\Debug\netstandard2.0\Otc.Networking.Http.Client.AspNetCore.xml</DocumentationFile>
+    <DocumentationFile>bin\Debug\$(TargetFramework)\Otc.Networking.Http.Client.AspNetCore.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
-    <DocumentationFile>bin\Release\netstandard2.0\Otc.Networking.Http.Client.AspNetCore.xml</DocumentationFile>
+    <DocumentationFile>bin\Release\$(TargetFramework)\Otc.Networking.Http.Client.AspNetCore.xml</DocumentationFile>
     <NoWarn>1701;1702;1591</NoWarn>
   </PropertyGroup>
 
